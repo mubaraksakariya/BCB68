@@ -1,0 +1,275 @@
+
+/* Main header Part------------------------ */
+/* Drop Down Menu */
+* {
+    margin: 0;
+    padding: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*Drop Down Menu  */
+
+.main-header-div{
+    display: flex;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    /* border: solid blue; */
+    background-color: white;
+    justify-content: center;
+}
+.icon-img{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    /* border: solid red;     */
+}
+.nav-div{
+    color: #1d1e20;
+    width: 100%;
+    /* border: solid greenyellow; */
+    display: flex;
+    justify-content: right;
+    gap: 5%;
+    font-size: 102%;
+}
+.menu-div{
+    width: 100%;
+    display: flex;
+    /* border: solid yellow; */
+    width: 100%;
+    justify-content: left;
+    gap: 5%;
+    padding-left: 6%
+}
+span::after{
+    content: url('/media/DownArrow.png');
+}
+
+/* Main header Part------------------------ */
+/* Banner part---------video and stuff--------- */
+.banner-video-div{
+    display: flex;
+    justify-content: center;
+    /* border: solid greenyellow; */
+    width: 100%;
+    overflow: hidden; 
+}
+.text-over-video-div{
+    color: white;
+    width: 54%;
+    margin-top: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    /* border: solid red; */
+    position:absolute;
+}
+#video1{
+    height: auto;
+    width: 180%;
+}
+button{
+    border:solid 1px #0065ed;
+    background-color: #0065ed;
+    min-width: 186px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 16px 20px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+/* Banner part---------video and stuff--------- */
+
+/* Content dives photos of people and texts-------------- */
+.content-outer-div{
+    /* border: solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%; 
+}
+.content-inner-type1-div{
+    /* border: solid rgb(1, 10, 10); */
+    align-items: center;
+    width: fit-content;
+    margin-left: 13%;
+}
+.content-typ1-text-div{
+    position: absolute;
+    /* border: solid red; */
+    z-index: 1;
+    color: white;
+    padding-top: 11%;
+    font-size: 175%;
+}
+.content-type1-img-div{
+    position: relative;
+    /* border: solid orange; */
+    width: fit-content;
+    margin-bottom: 10%;
+}
+/* content type 2 ---------------------------------------- */
+
+.content-inner-type2-div{
+    /* border: solid rgb(1, 10, 10); */
+    width: fit-content;
+    display: flex;
+    padding-left: 12.1%;
+    padding-right: 12.1%;
+    gap: 2%;
+    margin-bottom: 10%;
+}
+.content-type2-img-div{
+    /* border: solid green; */
+    width: fit-content;
+    text-align: left;
+    overflow: hidden;
+}
+/* .content-type2-img-div img:hover{
+    transform: scale(1.5);
+    overflow: hidden;
+} */
+/* content type 2 ---------------------------------------- */
+
+/* Content divs photos of people and texts-------------- */
+
+/* content type 3 photos and texts------------------------ */
+
+.content-outer-type3-div{
+    /* border: solid blue; */
+    margin-top: -5%;
+    display: flex;
+    align-items: flex-end;
+}
+.inner-div-type3-img{
+    /* border: solid rgb(9, 255, 0); */
+    width:98.4vw;
+    height:42vw;
+    overflow: hidden;
+    padding-bottom: 9%;
+    padding-top: 3%;
+}
+.inner-div-type3-img img{
+    position: relative;
+    width: 100%;    
+}
+.inner-div-type3-text{
+    /* border: solid red; */
+    font-size: 180%;
+    background-color: #0065ed;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding-left: 6%;
+    padding-top: 5%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    margin-left: 12%;
+}
+.inner-div-type3-text button{
+    background-color: white;
+    padding: 3%;
+    border-radius: 5px;
+    color: #0065ed;
+}
+/* content type 3 photos and texts------------------------ */
+
+/* Corousel part1---------------------------------------- */
+
+.corousel-view-div{
+    /* border: solid red; */
+    width: 75vw;
+    margin-left: 11.5vw;
+    display: flex;
+    overflow: scroll;
+    gap: 2vw;
+    margin-top: 4vw;
+}
+
+.corousel-slide-div{
+    /* border: solid green; */
+    width: fit-content;
+    
+}
+.corousel-slide-div img:hover{
+    transform: scale(1.2);
+}
+
+/* Corousel part1---------------------------------------- */
+
+/* footer divs-------------------------------------------- */
+.footer-div{
+    /* border: solid blue; */
+    width: 72.9vw;
+    background: #001135;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 5%;
+    font-size: smaller;
+}
+.footer-container-div{
+    /* border: solid greenyellow; */
+}
+.footer-social-div{
+    /* border: solid rgb(47, 61, 255); */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid rgb(77, 80, 102);
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+.social-div{
+    display: flex;
+    gap: 8%;
+    /* border: solid palegreen; */
+    border-bottom: rgb(163, 152, 211);
+    
+}
+.social-div div{
+    border-radius: 50%;
+    border: solid rgb(152, 146, 182);
+    background: #001135;
+    border-width: thin;
+}
+.subscribe-div{
+    /* border: solid pink; */
+    display: flex;
+    gap: 5%;
+}
+.subscribe-div button{
+    background-color: #001135;
+    color: white;
+    border: solid white;
+    border-width: thin;
+}
+.footer-munu-div{
+    display: flex;
+    /* border: solid red; */
+    justify-content:space-between;
+    padding-bottom: 5%;
+}
+
+.footer-munu-div ul{
+    list-style: none;
+    line-height: 250%;
+}
+h5{
+    margin-bottom: 20%;
+}
+/* footer divs-------------------------------------------- */
